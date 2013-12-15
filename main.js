@@ -284,7 +284,7 @@ define(function (require, exports, module) {
             .appendTo($("#main-toolbar .buttons"));
         
         //add the keybinding
-        KeyBindingManager.addBinding(SNIPPET_EXECUTE, "Ctrl-Alt-V");
+        KeyBindingManager.addBinding(SNIPPET_EXECUTE, "Ctrl-Shift-Space");
                 
         //snippet module's directory
         var moduleDir = FileUtils.getNativeModuleDirectoryPath(module);

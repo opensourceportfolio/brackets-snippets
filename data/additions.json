@@ -1,0 +1,16 @@
+[
+    {
+        "name": "New Object",
+        "trigger": "class",
+        "usage": "class myClass",
+        "description": "Create a javascript object",
+        "template": "var $${name} = function () {\n\n function $${name}() {\n !!{cursor} \n}\n\n return $${name};\n};"
+    },
+    {
+        "name": "New Module",
+        "trigger": "define",
+        "usage": "define myClass",
+        "description": "Create a RequireJS module",
+        "template": "define([$${dependencies}],function(){\n !!{cursor} \n});"
+    }
+]
